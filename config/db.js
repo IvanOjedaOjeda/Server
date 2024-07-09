@@ -14,7 +14,7 @@ const connectDB = async () => {
 
     } catch (error) {
         console.log(error)
-        process.exit(1) // DETIENE LA APP POR COMPLETO
+        process.exit(1) // DETIENE LA APP COMPLETAMENTE
 
     }
 
