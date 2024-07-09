@@ -31,7 +31,7 @@ app.use(cors(whitelist))
 app.use(express.json());
 
 
-// MERCADO PAGO
+// CONFIGURACION MERCADO PAGO
 
  const mercadopago = require("mercadopago")
  const { update } = require('./models/Cuadro.model')
